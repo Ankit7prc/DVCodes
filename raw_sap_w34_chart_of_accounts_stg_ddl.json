@@ -1,0 +1,26 @@
+{
+   "TableName":"w34_ChartOfAccounts",
+   "IsExternal":"yes",
+   "DatabaseName":"stg_sap",
+   "Description":"Loaded from W34 XML File",
+   "Columns":[
+      {"ColumnID":1,"ColumnName":"docnum","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":2,"ColumnName":"createdon","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":3,"ColumnName":"createdat","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":4,"ColumnName":"function","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":5,"ColumnName":"chartofaccounts","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":6,"ColumnName":"glaccountnumber","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":7,"ColumnName":"groupaccountnumber","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":8,"ColumnName":"plstatementaccounttype","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":9,"ColumnName":"glaccountgroup","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":10,"ColumnName":"numberofthesampleaccount","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":11,"ColumnName":"companyid","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":12,"ColumnName":"indicatoraccountisabalancesheetaccount","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":13,"ColumnName":"indicatoraccountmarkedfordeletion","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":14,"ColumnName":"indicatoraccountisblockedforcreation","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":15,"ColumnName":"indicatorisaccountblockedforposting","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":16,"ColumnName":"indicatoraccountblockedforplanning","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":17,"ColumnName":"functionalarea","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":18,"ColumnName":"char20","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"}
+   ]
+}

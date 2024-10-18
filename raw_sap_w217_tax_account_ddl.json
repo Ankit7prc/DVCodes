@@ -1,0 +1,13 @@
+{
+    "TableName":"W217_TAX_ACCOUNT",
+    "IsExternal":"yes",
+    "DatabaseName":"raw_sap",
+    "Description":"Loaded from CSV",
+    "Columns":[
+       {"ColumnID":1,"ColumnName":"sap_acct","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+       {"ColumnID":2,"ColumnName":"qual_fl","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+       {"ColumnID":3,"ColumnName":"cat_grp_name","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+       {"ColumnID":4,"ColumnName":"pct","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"}
+    ]
+ }
+ 

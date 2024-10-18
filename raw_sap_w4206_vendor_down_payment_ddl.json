@@ -1,0 +1,32 @@
+{
+   "TableName":"W4206_VENDOR_DOWN_PAYMENT",
+   "IsExternal":"yes",
+   "DatabaseName":"raw_sap",
+   "Description":"Loaded from CSV",
+   "Columns":[
+      {"ColumnID":1,"ColumnName":"SAP_COMPANY_CODE","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":2,"ColumnName":"COUNTRY_KEY","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":3,"ColumnName":"VENDOR_NUM","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":4,"ColumnName":"VENDOR_NAME","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":5,"ColumnName":"VENDOR_COUNTRY","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":6,"ColumnName":"PO_NO","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":7,"ColumnName":"POST_DATE","DataType":"date","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"date"},
+      {"ColumnID":8,"ColumnName":"SAP_DOC_NO","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":9,"ColumnName":"DOC_LINE_NO","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":10,"ColumnName":"SAP_DOC_TYPE","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":11,"ColumnName":"INS_DATE","DataType":"date","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"date"},
+      {"ColumnID":12,"ColumnName":"DB_CR_IND","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":13,"ColumnName":"YEAR","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":14,"ColumnName":"CLEARING_DOC_NUMBER","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":15,"ColumnName":"DOC_AMOUNT","DataType":"decimal(15,2)","Length":0,"Precision":15,"Scale":2,"IsNull":true,"FormattedDataType":"decimal(15,2)"},
+      {"ColumnID":16,"ColumnName":"DOC_CURRENCY","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":17,"ColumnName":"GROUP_AMOUNT","DataType":"decimal(15,2)","Length":0,"Precision":15,"Scale":2,"IsNull":true,"FormattedDataType":"decimal(15,2)"},
+      {"ColumnID":18,"ColumnName":"GROUP_CURRENCY","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":19,"ColumnName":"CLEARING_DATE","DataType":"date","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"date"},
+      {"ColumnID":20,"ColumnName":"USER_511","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":21,"ColumnName":"DOC_HEADER_TEXT","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":22,"ColumnName":"REFERENCE_KEY1","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":23,"ColumnName":"REFERENCE_KEY2","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":24,"ColumnName":"PAYMENT_TERM","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"}
+   ]
+}

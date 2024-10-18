@@ -1,0 +1,21 @@
+{
+ "TableList":[
+	  {"TableName":"W217_TAX_ACCOUNT","ScriptFileName":"raw_sap_w217_tax_account_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"W27_VENDOR_PAYMENT","ScriptFileName":"raw_sap_w27_vendor_payment_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"W179_WBS_EXPENSE","ScriptFileName":"raw_sap_w179_wbs_expense_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"W53_FUNCL_EXPENSE","ScriptFileName":"raw_sap_w53_funcl_expense_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"W4206_VENDOR_DOWN_PAYMENT","ScriptFileName":"raw_sap_w4206_vendor_down_payment_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"W20_IO","ScriptFileName":"raw_sap_w20_io_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"W20_CC","ScriptFileName":"raw_sap_w20_cc_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"W20_WBS","ScriptFileName":"raw_sap_w20_wbs_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"w34_ChartOfAccounts","ScriptFileName":"raw_sap_w34_chart_of_accounts_raw_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"w34_ChartOfAccounts","ScriptFileName":"raw_sap_w34_chart_of_accounts_stg_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"w34_ChartOfAccountsText","ScriptFileName":"raw_sap_w34_chart_of_accounts_text_raw_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"w34_ChartOfAccountsText","ScriptFileName":"raw_sap_w34_chart_of_accounts_text_stg_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"w34_glAccountsCompanyCode","ScriptFileName":"raw_sap_w34_glaccounts_company_code_raw_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"w34_glAccountsCompanyCode","ScriptFileName":"raw_sap_w34_glaccounts_company_code_stg_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"w34_parentSegmentZE1SKA1M","ScriptFileName":"raw_sap_w34_parent_segment_ze1ska1m_raw_ddl.json","DDLType":"Create","DropTable":"No"},
+	  {"TableName":"w34_parentSegmentZE1SKA1M","ScriptFileName":"raw_sap_w34_parent_segment_ze1ska1m_stg_ddl.json","DDLType":"Create","DropTable":"No"}
+	 
+]
+}

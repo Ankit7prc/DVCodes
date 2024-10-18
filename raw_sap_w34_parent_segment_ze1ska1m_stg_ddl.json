@@ -1,0 +1,16 @@
+{
+   "TableName":"w34_parentSegmentZE1SKA1M",
+   "IsExternal":"yes",
+   "DatabaseName":"stg_sap",
+   "Description":"Loaded from W34 XML File",
+   "Columns":[
+      {"ColumnID":1,"ColumnName":"docnum","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":2,"ColumnName":"createdon","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":3,"ColumnName":"createdat","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":4,"ColumnName":"function","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":5,"ColumnName":"chartofaccounts","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":6,"ColumnName":"glaccountnumber","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":7,"ColumnName":"threedigitcharacterfieldforidocs","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"},
+      {"ColumnID":8,"ColumnName":"characterfieldlength1","DataType":"string","Length":0,"Precision":0,"Scale":0,"IsNull":true,"FormattedDataType":"string"}
+   ]
+}
