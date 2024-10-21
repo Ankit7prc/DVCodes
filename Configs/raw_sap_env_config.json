@@ -1,1 +1,43 @@
-
+{
+    "DomainName":"FinOps",
+    "LayerName":"raw_sap",
+    "Development":{
+        "SourcePath":"s3a://dataverse-moveit-development-integration-bucket-1327560/internal/inbound/noen/sap_ns",        
+        "ConnectionObjectsFile":"raw_sap_dev_connections.json",
+        "NabuAuditConnection": {
+            "ConnectionName":"nabu_rds_audit_users",
+            "DatabaseHostName":"nabu-dataverse-instance-1.cvoqvkvm02vq.us-east-1.rds.amazonaws.com",
+            "DatabaseName":"nabu_jobs_audit",
+            "EltDatabaseName":"dv_elt_framework",
+            "AuditTableName":"extraction.extraction_jobs_audit",
+            "MaintenanceTableName":"extraction.extraction_maintenance_jobs_audit",
+            "DatabasePortNo":5432
+        }
+    },
+    "Validation":{
+        "SourcePath":"s3a://dataverse-moveit-qa-integration-bucket-1327561/internal/inbound/noen/sap_ns",        
+        "ConnectionObjectsFile":"raw_sap_val_connections.json",
+        "NabuAuditConnection": {
+            "ConnectionName":"nabu_rds_audit_users",
+            "DatabaseHostName":"nabu-dataverse-instance-1.cshtuy3nv1f9.us-east-1.rds.amazonaws.com",
+            "DatabaseName":"nabu_jobs_audit",
+            "EltDatabaseName":"dv_elt_framework",
+            "AuditTableName":"extraction.extraction_jobs_audit",
+            "MaintenanceTableName":"extraction.extraction_maintenance_jobs_audit",
+            "DatabasePortNo":5432
+        }
+    },
+    "Production":{
+        "SourcePath":"s3a://dataverse-moveit-production-integration-bucket-1222608/internal/inbound/noen/sap_ns",        
+        "ConnectionObjectsFile":"raw_sap_prd_connections.json",
+        "NabuAuditConnection": {
+            "ConnectionName":"nabu_rds_audit_users",
+            "DatabaseHostName":"nabu-dataverse-instance-1.c39c6otmd5ym.us-east-1.rds.amazonaws.com",
+            "DatabaseName":"nabu_jobs_audit",
+            "EltDatabaseName":"dv_elt_framework",
+            "AuditTableName":"extraction.extraction_jobs_audit",
+            "MaintenanceTableName":"extraction.extraction_maintenance_jobs_audit",
+            "DatabasePortNo":5432
+        }
+    }   
+}
