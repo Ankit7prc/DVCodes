@@ -1,1 +1,47 @@
-
+{
+    "Development":{   
+            "format-version" : "2", 
+            "write.update.mode" : "copy-on-write", 
+            "write.merge.mode" : "merge-on-read", 
+            "read.parquet.vectorization.enabled" : "true", 
+            "write.format.default" : "parquet", 
+            "write.delete.format.default" : "avro", 
+            "write.metadata.delete-after-commit.enabled" : "true", 
+            "write.metadata.previous-versions-max" : "30", 
+            "write.metadata.metrics.default" : "none", 
+            "write.object-storage.enabled" : "true",
+            "engine.hive.enabled":"true",
+            "history.expire.min-snapshots-to-keep" : "30",
+            "history.expire.max-snapshot-age-ms" : "259200000"
+    },
+    "Validation":{
+        "format-version" : "2", 
+        "write.update.mode" : "copy-on-write", 
+        "write.merge.mode" : "merge-on-read", 
+        "read.parquet.vectorization.enabled" : "true", 
+        "write.format.default" : "parquet", 
+        "write.delete.format.default" : "avro", 
+        "write.metadata.delete-after-commit.enabled" : "true", 
+        "write.metadata.previous-versions-max" : "50", 
+        "write.metadata.metrics.default" : "none", 
+        "write.object-storage.enabled" : "true",
+        "engine.hive.enabled":"true",
+        "history.expire.min-snapshots-to-keep" : "100",
+        "history.expire.max-snapshot-age-ms" : "518400000"
+    },
+    "Production":{
+        "format-version" : "2",
+        "write.update.mode" : "copy-on-write",
+        "write.merge.mode" : "merge-on-read",
+        "read.parquet.vectorization.enabled" : "true",
+        "write.format.default" : "parquet",
+        "write.delete.format.default" : "avro",
+        "write.metadata.delete-after-commit.enabled" : "true",
+        "write.metadata.previous-versions-max" : "100",
+        "write.metadata.metrics.default" : "none",
+        "write.object-storage.enabled" : "true",
+        "engine.hive.enabled":"true",
+        "history.expire.min-snapshots-to-keep" : "200",
+        "history.expire.max-snapshot-age-ms" : "1209600000"
+    }
+}
